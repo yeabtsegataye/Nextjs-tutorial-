@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import logo from './dojo-logo.png'
+import logo from './logo2.png'
 import Image from 'next/image'
 
 export const Navbar = () => {
@@ -10,6 +10,7 @@ export const Navbar = () => {
       alt = 'some logo'
       width={70}
       placeholder='blur'
+      quality={100}
       />
       <h2>Tati Practice</h2>
         <Link href="/">Dash board</Link>
